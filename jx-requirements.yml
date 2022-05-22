@@ -8,7 +8,7 @@ spec:
     chartRepository: http://bucketrepo.jx.svc.cluster.local/bucketrepo/charts
     clusterName: kind
     devEnvApprovers:
-    - adanlessossi
+      - adanlessossi
     environmentGitOwner: cloudtraktor
     gitKind: github
     gitName: github
@@ -16,15 +16,15 @@ spec:
     provider: kubernetes
     registry: ghcr.io
   environments:
-  - key: dev
-  - key: staging
-  - key: production
+    - key: dev
+    - key: staging
+    - key: production
   ingress:
-    domain: ""
+    domain: "cloudtraktor.com"
     externalDNS: false
     namespaceSubDomain: -jx.
     tls:
-      email: ""
+      email: "adanlessossi@hotmail.com"
       enabled: false
       production: false
   repository: bucketrepo
