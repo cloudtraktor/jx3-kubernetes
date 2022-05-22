@@ -10,6 +10,12 @@ spec:
     repositories:
     - name: x-common-io
     scheduler: in-repo
+  - owner: cloudtraktor
+    provider: https://github.com
+    providerKind: github
+    repositories:
+    - name: x-common-io
+    scheduler: in-repo
   slack:
     channel: '#jenkins-x-pipelines'
     kind: failureOrNextSuccess
