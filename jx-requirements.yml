@@ -8,8 +8,8 @@ spec:
     chartRepository: http://bucketrepo.jx.svc.cluster.local/bucketrepo/charts
     clusterName: kind
     devEnvApprovers:
-    - todo
-    environmentGitOwner: todo
+    - adanlessossi
+    environmentGitOwner: cloudtraktor
     gitKind: github
     gitName: github
     gitServer: https://github.com
